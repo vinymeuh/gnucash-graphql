@@ -1,0 +1,11 @@
+type Account {
+    id: ID!
+    name: String!
+    type: String!
+}
+
+type Query {
+    rootAccount: Account
+    account(id: ID!): Account
+    accounts(name: String!): [Account!]!
+}

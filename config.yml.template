@@ -1,0 +1,6 @@
+listen:
+  #host: "locahost"
+  port: "3000"
+
+gnucash:
+  file: "/path/to/the/gnucash/file.gnucash"

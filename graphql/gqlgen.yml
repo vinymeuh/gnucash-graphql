@@ -1,0 +1,15 @@
+# gqlgen.yml
+# See https://gqlgen.com/config/ for reference
+
+schema:
+  - schema.graphql
+
+exec:
+  filename: exec_gen.go
+model:
+  filename: model_gen.go
+resolver:
+  filename: resolver.go
+
+autobind:
+  - "github.com/vinymeuh/gnucash-graphql/gnucash"
